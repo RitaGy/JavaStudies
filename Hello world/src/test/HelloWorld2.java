@@ -1,4 +1,4 @@
-package teszt;
+package test;
 
 public class HelloWorld2 {
 
