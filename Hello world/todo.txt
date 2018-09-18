@@ -1,0 +1,49 @@
+Task #1: Create a new 'homework' package in 'src' directory
+
+Task #2:
+        - Create another new 'hw01' package in 'homework' package
+        - Create a new 'Exercise1' class in 'hw01' package with main method
+        - Insert the following lines inside the main method:
+
+            String what = "nothing";
+            String firstName = "John";
+            String delimiter = " ";
+            String lastName = "Snow";
+            String exclamationMark = "!";
+            String doing = "knows";
+
+          Print to the console the following text using only the previously defined variables: "John Snow knows nothing!"
+
+Task #3: Read the following code snippet:
+
+        String s1;
+        String s2 = "s";
+        s1 = "s2";
+        s2 = "s1";
+        s1 = s1;
+
+        What are the values of s1 and s2 variables after the last line?
+
+Task #4:
+        - Create a new 'Exercise2' class in 'hw01' package with main method
+        - Insert the following lines inside the main method:
+
+            String str1 = "first ";
+            String str2 = "row ";
+            String str3 = "value";
+            String str4 = "second ";
+            String str5 = "row ";
+            String str6 = "value";
+
+        - Print to the console the following text using only the previously defined variables:
+            'first row value
+             second row value'
+
+        - Provide two different solutions: one with string concatenation and one without it
+
+Task #5
+        - Create a new 'Exercise3' class in 'hw01' package with main method
+        - Insert only str1, str2, str3 and str4 into the main method and do the same exercise you have done in Task #4
+
+
+Task #6: Correct my grammar mistakes! :D
