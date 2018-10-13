@@ -5,9 +5,9 @@ public class Exercise2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	int randomNumber = 4;
+	int randomNumber = 3;
 	boolean odd;
-	if ((randomNumber/2)>=2){
+	if ((randomNumber/2)*2==randomNumber){
 		odd = false;
 		System.out.println("even " + randomNumber); 
 	}	
