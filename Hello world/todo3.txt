@@ -1,0 +1,18 @@
+Task #0: Create a new 'hw03' package in 'homework' package
+
+Task #1:
+	- Create a new 'Exercise1' class in 'hw03' package with main method
+	- create an int array with the following numbers: 3, 4, 5, 34, 86, 34, 73, 78, 45, 52
+	- print to the console the odd numbers (use for loop)
+
+Task #2:
+    - Create a Car class.
+    - It has to have the following attributes: 	manufacturer, numberOfSeats, color, yearOfProduction
+    - It has to have a method which prints the followings: 'This is a <the age of the car (calculated based on yearOfProduction)> year-old <manufacturer> in <color>.'
+    - Create 2 instances of Car class, set all attributes on the instances and call the previous method on both of them.
+
+Task #3:
+    - Create a Driver class.
+    - It has to have a name and ownedCar attributes (the first is a String type, the second is a Car type)
+    - Write a method for the Driver prints the followings: '<name of driver> drives a <color of the car> car.'
+    - Create a new Driver instance and use the Car instances from the previous task.
