@@ -12,7 +12,7 @@ public class ObjectArrays {
 			log = log + " plus 1 house";
 		}
 		System.out.println(log);
-	
+	System.out.println(houses.length);
 	}
 
 }
