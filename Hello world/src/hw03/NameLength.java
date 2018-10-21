@@ -1,12 +1,13 @@
 package hw03;
 
 public class NameLength {
-	public int result;
+	//public int result;
 	public int nameLengthAverage(String[] names) {
+		int result2 = 0;
 		for (String name: names) {
-			result= result+ name.length();
+			result2= result2+ name.length();
 		}
-		return result/names.length;
+		return result2/names.length;
 	}
 
 	public static void main(String[] args) {
