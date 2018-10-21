@@ -22,8 +22,9 @@ public class CarsAndDrivers {
 		driver1.name = "Sanyi";
 		driver1.ownedCar= car1;
 		driver1.driverDisplay();
-		String driverDisplay = driver1.getDriverDisplay("extra info for car", "");
-		System.out.println("New driver display: " + driverDisplay);
+		String driverWithExtraInfo = driver1.getDriverDisplay("extra info for car", "");
+		System.out.println(("New driver display: " + driverWithExtraInfo).toUpperCase());
+		
 	}
 
 }
