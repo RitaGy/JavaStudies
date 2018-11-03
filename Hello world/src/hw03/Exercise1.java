@@ -8,6 +8,9 @@ public class Exercise1 {
 		int[] intArray = { 3, 4, 5, 34, 86, 34, 73, 78, 45, 52 };
 		for (int value : intArray) {
 			if ((value / 2) * 2 != value) {
+				//System.out.println(value);
+			}
+			if (value%2==0) {
 				System.out.println(value);
 			}
 		}
