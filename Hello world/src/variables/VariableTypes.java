@@ -15,6 +15,15 @@ public class VariableTypes {
 		
 		String fullName = firstName + " " + lastName;
 		System.out.println(fullName);
-	}
+		
+		double weight = 23;
+		System.out.println(weight);
+		
+		char chr = 119;
+		System.out.println(chr);
+		
+		
+		
+		}
 
 }
