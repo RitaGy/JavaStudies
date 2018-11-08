@@ -1,0 +1,11 @@
+Task #0: move hw03 package under homework package
+
+Task #1: create new hw4 package under homework package
+
+Task #2: Create a new class, which has only methods.
+        - the first method has 2 inputs: a String (its length should be at least 31) and an array of ints (between 0 and 30)
+            the method have to return a new String array, which contains on every index the first x characters of the parameter String and x is the number of the int array's value at the same index
+            e.g. String str = "Asdfghjklpasdfghjklpasdfghjklpasdf", int[] numbers = {2, 5, 10} -> result = {"As", "Asdfg", "Asdfghjklp"}
+
+        - create another method. Its inputs is a String array and it returns with a new int array with the length of the Strings
+            e.g. String[] texts = {"qwe", "gtvrt", "w"} -> result = {3, 5, 1}
