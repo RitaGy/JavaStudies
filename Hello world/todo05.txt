@@ -1,0 +1,7 @@
+Task #1: Create a new method in NameLength class, which has a String input parameter and formatting this String like a name (first character uppercase, other letters lowercase)
+        Test it with different inputs. e.g. "sAnyI" -> "Sanyi", "Tibi" -> "Tibi", "RITA" -> "Rita"
+
+Task #2: Create a new 'appendTexts' method in NameLength, which has a String[] input. The method should concatenate all the Strings in the array and print it to the output. Use StringBuilder!
+
+Task #3: Create Constructors for Car and Driver and set default values in them for all their attributes.
+        In the existing CarsAndDrivers display the newly created objects after the creation (new Car(), new Driver()) and you modified the values of the attributes.
