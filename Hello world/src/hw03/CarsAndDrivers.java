@@ -1,10 +1,19 @@
 package hw03;
 
 public class CarsAndDrivers {
-
+	public void printValue(){
+		System.out.println("sdf");
+	}
+	public int age = 10;
 	public static void main(String[] args) {
+		CarsAndDrivers carsAndDrivers = new CarsAndDrivers();
+		carsAndDrivers.printValue();
+		carsAndDrivers.age = 10;
+		Car.printValue();
 		Car car1 = new Car();
+		car1.printCounter();
 		Car car2 = new Car();
+		car2.printCounter();
 		car1.manufacturer = "Opel";
 		car1.numberOfSeats = 5;
 		car1.color = "blue";

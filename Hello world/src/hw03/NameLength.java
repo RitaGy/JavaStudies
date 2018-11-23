@@ -1,14 +1,19 @@
 package hw03;
 
 public class NameLength {
-	// public int result;
+	 public static int result = 0;
 
-	public int nameLengthAverage(String[] names) {
+	public static int nameLengthAverage(String[] names) {
 		int result2 = 0;
 		for (String name : names) {
 			result2 = result2 + name.length();
 		}
-		return result2 / names.length;
+		result = result2 / names.length;
+		return result;
+	}
+
+	public void printResult(){
+		System.out.println(result);
 	}
 
 	public void longestNames(String[] names) {
@@ -39,7 +44,8 @@ public class NameLength {
 
 	public static void main(String[] args) {
 		NameLength nameLength = new NameLength();
-		String[] names = { "Jakab", "Eufrozina", "John", "Piroska", "Magdi" };
+//		String[] names = { "Jakab", "Eufrozina", "John", "Piroska", "Magdi" };
+		String[] names = { };
 		System.out.println(nameLength.nameLengthAverage(names));
 		//nameLength.minMaxLength(names);
 		//nameLength.minMaxLength(new String[] { "Alfonz" });
