@@ -38,4 +38,12 @@ public class Car {
 			System.out.println(Math.PI);
 		}
 	}
+
+	public void paint(){
+		this.color = "blue";
+	}
+
+	public void paint(String color){
+		this.color = color;
+	}
 }

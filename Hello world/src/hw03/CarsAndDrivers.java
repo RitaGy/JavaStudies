@@ -5,6 +5,10 @@ public class CarsAndDrivers {
 		System.out.println("sdf");
 	}
 	public int age = 10;
+
+	public void printCar(Car car){
+		System.out.println(car.yearOfProduction);
+	}
 	public static void main(String[] args) {
 		CarsAndDrivers carsAndDrivers = new CarsAndDrivers();
 		carsAndDrivers.printValue();
@@ -18,6 +22,7 @@ public class CarsAndDrivers {
 		car1.numberOfSeats = 5;
 		car1.color = "blue";
 		car1.yearOfProduction = 2011;
+		carsAndDrivers.printCar(car1);
 
 		car2.manufacturer = "BMW";
 		car2.numberOfSeats = 7;
@@ -33,7 +38,14 @@ public class CarsAndDrivers {
 		driver1.driverDisplay();
 		String driverWithExtraInfo = driver1.getDriverDisplay("extra info for car", "");
 		System.out.println(("New driver display: " + driverWithExtraInfo).toUpperCase());
-		
+
+
+		System.out.println("Method overload:");
+		System.out.println(car2.color);
+		car2.paint();
+		System.out.println(car2.color);
+		car2.paint("pink");
+		System.out.println(car2.color);
 	}
 
 }

@@ -26,8 +26,8 @@ public class Exercise1 {
 		nl1.printResult();
 		NameLength nl2 = new NameLength();
 		nl2.printResult();
-		int avg = NameLength.nameLengthAverage(names);
-		System.out.println(avg);
+		//int avg = NameLength.nameLengthAverage(names);
+		//System.out.println(avg);
 		nl1.printResult();
 		nl2.printResult();
 	}
